@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Baking Website</title>
+    <link rel="stylesheet" href="css/styles.css" */>
+    <style>
+        /* Center the heading and apply styles */
+        h1 {
+            text-align: center;         /* Centers the text */
+            font-size: 2.5em;           /* Makes the heading larger */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif /* Font styling */
+            color: white;               /* Text color */
+            padding: 10px;              /* Adds padding around the text */
+            background-color: #dd91eb;     /* Background color */
+        } 
+
+        h2 {
+
+            text-align: center;         /* Centers the text */
+            font-size: 1em;           /* Makes the heading larger */
+            font-family: 'Times New Roman', Times, serif/* Font styling */
+
+        }
+
+        h3 {
+
+            text-align: center;         /* Centers the text */
+            font-size: 1em;           /* Makes the heading larger */
+            font-family: 'Times New Roman', Times, serif/* Font styling */
+
+        }
+
+        /* Add some margin around the header section */
+        header {
+            margin-bottom: 5px;
+        }
+
+        /* Center hyperlinks using Flexbox */
+        nav {
+            display: flex;               /* Flexbox layout */
+            justify-content: center;      /* Center horizontally */
+            align-items: center;          /* Center vertically */
+            height: 10px;                /* Height of the nav */
+        }
+
+        /* Hyperlink styling */
+        nav a {
+            margin: 0 10px;               /* Spacing between links */
+            text-decoration: none;        /* Remove underline */
+            color: #000000;                  /* Text color */
+            font-size: 18px;              /* Font size */
+            font-family: 'Times New Roman', Times, serif; /* Font family */
+        }
+
+        /* Change color on hover */
+        nav a:hover {
+            color: #0d1f78;               /* Color change when hovered */
+        }
+
+
+    
+        </style>
+        
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Baking Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#cakes">Cakes </a></li>
+            <li><a href="#cookies">Cookies</a></li>
+            <li><a href="#brownies">Cookies</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="cakes" style="margin-top: 50px;"> <!-- Adding margin for visual separation -->
+        <h2>Cakes</h2>
+    
+        <div class="image-float">
+            <style>
+                .image-float {
+                    text-align: center;               /* Centers floated images */
+                }
+                .image-float img {
+                    margin-right: 10px;         /* Adds space between images */
+                    width: auto;               /* Set image width */
+                    height: 2500px;               /* Maintain aspect ratio */
+                }
+
+            </style>
+            <img src="https://static01.nyt.com/images/2023/10/27/multimedia/27cakerex-plzm/27cakerex-plzm-superJumbo.jpg" alt="Chocolate cake">
+            <img src="https://thescranline.com/wp-content/uploads/2023/06/RED-VELVET-CAKE-23-S-01.jpg" alt="Red Velvet cake">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNbTmOl9xJqKKm3o40rSq8Md_AoEITWiAoiw&s" alt="Victoria sponge cake">
+            
+        </div>
+        </section>
+
+    <section id="cookies" style="margin-top: 50px;"> <!-- Adding margin for visual separation -->
+        <h3>Cookies</h3>
+        <div class="image-float">
+            <style>
+                .image-float {
+                    text-align: center;               /* Centers floated images */
+                }
+                .image-float img {
+                    margin-right: 10px;         /* Adds space between images */
+                    width: auto;               /* Set image width */
+                    height: 250px;               /* Maintain aspect ratio */
+                }
+
+            </style>
+            <img src="https://handletheheat.com/wp-content/uploads/2021/10/brown-butter-chocolate-chip-cookie-SQUARE.png" alt="brown butter chocolate chip cookies">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOFuuBSlwEQzZUzvSyPZXFE9skuPEUgW3yg&s" alt="matcha cookies">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScZS8KHNReuDGDzsWFCYSTUMNMLDZs95xHtQ&s" alt="double chocolate chip cookies" >
+
+        </div>
+    </section>
+
+    <section id="brownies" style="margin-top: 50px;"> <!-- Adding margin for visual separation -->
+        <h3>Brownies</h3>
+        <div class="image-float">
+            <style>
+                .image-float {
+                    text-align: center;               /* Centers floated images */
+                }
+                .image-float img {
+                    margin-right: 10px;         /* Adds space between images */
+                    width: auto;               /* Set image width */
+                    height: 250px;               /* Maintain aspect ratio */
+                }
+
+            </style>
+            <img src="https://sallysbakingaddiction.com/wp-content/uploads/2016/12/homemade-fudge-brownies-3.jpg" alt="chocolate brownies" >
+            <img src="https://cookingwithkarli.com/wp-content/uploads/2023/09/oreo-brownies-ft.jpg" alt="oreo brownies">
+            <img src="https://farmettekitchen.com/wp-content/uploads/2018/08/best-ever-salted-caramel-blondies-480x360.jpg" alt="caramel blondies" >
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Antraa</p>
+    </footer>
+</body>
+</html>
